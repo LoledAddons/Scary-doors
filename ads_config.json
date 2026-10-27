@@ -1,0 +1,31 @@
+{
+  "_comment": "Настройки приложения. admob/levelPlay — рекламные идентификаторы (перед релизом замените тестовые ID на свои; у AdMob можно указать несколько ID — они пробуются по порядку, и только если реклама не показалась ни по одному, включается LevelPlay; значения, начинающиеся с YOUR_, считаются незаполненными). AdMob App ID лежит в AndroidManifest.xml. design — оформление: colorTheme = emerald | ocean | violet | sunset | rose; font = system | ubuntu | russo | marmelad | pixel; scale = 0.85 … 1.2 (масштаб текста и иконок). diamonds — награды и цена VIP-мода. reportEmail — почта для жалоб DMCA. privacyPolicyUrl — ссылка на полную политику конфиденциальности (показывается сверху встроенного текста). Изменения применяются после перезапуска приложения.",
+  "admob": {
+    "appOpen": ["ca-app-pub-1127688575944261/3821972650"],
+    "interstitial": ["ca-app-pub-1127688575944261/7612094265"],
+    "rewarded": ["ca-app-pub-1127688575944261/7455637891"],
+    "banner": ["ca-app-pub-1127688575944261/9664947503"],
+    "native": ["ca-app-pub-1127688575944261/2203311214"]
+  },
+  "levelPlay": {
+    "appKey": "28adbf055",
+    "interstitial": "iowig2l4iao73aqa",
+    "rewarded": "q0l1x8ak36aejszk",
+    "banner": "qou6loi8qztmshyo",
+    "nativePlacement": "kgp46o5mcr4kd9r6"
+  },
+  "design": {
+    "colorTheme": "violet",
+    "font": "russo",
+    "scale": 1.1
+  },
+  "diamonds": {
+    "dailyReward": 5,
+    "videoReward": 2,
+    "vipPrice": 5,
+    "videoDailyLimit": 5,
+    "videoCooldownMinutes": 2
+  },
+  "reportEmail": "timoshayankaloled4@gmail.com",
+  "privacyPolicyUrl": "https://docs.google.com/document/d/1B9f0vJUv09RTjqOtkr02-mYjDA55WMRYk38whaZhzaA/edit?usp=sharing"
+}
